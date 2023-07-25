@@ -32,7 +32,7 @@ export const HW4 = () => {
       <ol id={'hw04-tasks'}>
         {texts.map((el, index) => {
           return (
-            <li key={index} id={`hw04-task-${index}`} className={index % 2 !== 0 ? s.chetNechet : ''}>
+            <li key={index} id={`hw04-task-${index}`} className={index % 2 !== 0 ? s.chetNechet : s.chetNechet2}>
               {el}
             </li>
           );
